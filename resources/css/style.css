@@ -1,0 +1,306 @@
+html{
+	margin:0;
+	padding:0;
+}
+body{
+	display: block;
+	font-size: 18px;
+	font-family: Helvetica;
+	line-height: 1.4;
+	
+}
+.box{
+	display: block;			
+	width: 100%;
+	height: 31rem;	
+	padding-top:1rem;
+	background-image: url("D:/Coding/projects/Tortoiseshell Optics/image/glasses-bg.png"); 
+	background-size:cover; 
+	background-repeat: no-repeat;
+  background-position: center center;
+  
+ 
+}
+ 				 /* Header*/
+.header{
+	display: flex;
+	justify-content:space-between;
+	align-items: center;
+	width: 960px;
+	height: 4rem;
+	background-color: cadetblue;
+	margin: 0 auto;
+	color: white;
+}
+								/* LOGO */
+.logo {
+	display: flex;
+	align-items: center;
+	padding-left: 2.3rem;
+	height:1.5rem;
+	width: auto;
+}
+.logo img{
+	display: inline-flex;	
+	height:1.5rem;
+	width: auto;
+}
+.logo h2{
+	display: flex;
+	align-items: center;
+	font-size: 1rem;
+	font-family: Helvetica;
+	padding-left: 1rem;
+}
+
+ 					/* MENU */
+.menu_1 {
+	display:flex;
+	justify-content:space-between;	
+	align-items: center;
+}
+.menu_1 a{
+	font-size: 1rem;
+	font-family: Helvetica;
+	color:white;
+	text-decoration: none;
+	padding-right: 2rem;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+}
+.menu_2 {
+	display: none;		
+	}
+.menu_2 a{
+	display: none;		
+	}
+					/* BANNER */
+.banner {
+	display: flex;
+	align-items:flex-end;
+	justify-content:flex-end;
+	width: 1038px;
+	height: 15rem;	
+	margin:0 auto;	
+}
+.banner h1{
+	display:flex;
+	align-items:center;
+	font-family: Helvetica;
+	font-size:2rem;
+	font-weight:bold;
+	line-height:1.2;
+	height:3.5rem;
+	background-color:white;
+	padding:1.5rem 5rem;
+}
+
+/* Products  */
+.services{
+	display: flex;
+	width: 100%;
+	height: 14rem;	
+}
+.services_box{
+	display: flex;
+	justify-content: center;	
+	align-items: center;
+	width: 960px;
+	height: 8rem;
+	margin: 3rem auto;	
+}
+.box-box{
+	display: flex;
+	flex-direction:column;
+	justify-content: space-around;	
+	width: 7rem;
+	height: 8rem;	
+	padding-left: 5rem;
+}
+.box-box img {
+	display: flex;
+	justify-content: center;
+	width: 3.5rem;
+	height: auto;
+	margin:0 auto;
+}
+.paragraphe{
+	display:flex;
+	align-items: flex-end;	
+	color: black;
+	font-size: 1rem;
+	line-height:1.2;
+	margin:0 auto;
+	text-align: center;
+}
+
+      /*Main Content */
+.contеnt{
+	display: flex;
+	justify-content:center;
+	align-items:flex-start;
+	width: 100%;	
+	margin-bottom: 5rem;
+}
+.content_box{
+	display: flex;	
+	justify-content: space-around;	
+	width: 960px;
+	margin: 0 auto;
+}
+.content_box_left, .content_box_right{
+	display: flex;
+	flex-direction:column;	
+	justify-content:flex-start;	
+	width:35%;
+	margin-right: 5%;
+}
+.abcd {
+	display:flex;
+	justify-content:flex-start;
+	align-items:center;
+	width: 12rem;
+	height: 2.5rem;
+	background-color:cadetblue;
+	margin-bottom: 1rem;
+	
+}
+.abcd h3 {
+	font-family: Helvetica;
+	font-size: 1rem;
+	font-weight: bold;
+	color:white;
+	padding-left: 1.25rem;
+	padding-top:0.5rem;
+	padding-bottom: 0.5rem;
+}
+
+/* Footer  */
+footer{
+	height:9.5rem;
+	width:100%;
+}
+.footer{
+	display: flex;
+	align-items: center;		
+	height: 9.5rem;
+	width: 960px;
+	background-color: azure;
+	margin: 0 auto;
+}
+#logo {
+	display: flex;	
+	justify-content:flex-start;
+	height: 1.5rem;
+	width: auto;
+	margin-left:4rem;	
+}
+#logo img {
+	display: flex;	
+	justify-content:flex-start;
+	height: 1.5rem;
+	width: auto;	
+}
+#logo p{
+	text-align:left;
+	padding-left:1rem;
+}
+
+															/* MEDIA QUERIES */
+
+@media only screen and (max-width: 1024px) and (min-width: 722px) {
+
+	.box{	
+		height: 21rem;	
+		padding-top: 0rem;		
+	}
+	 				 /* Header*/
+	.header{	
+		width: 100%;	
+	}
+		 			/* MENU */
+	.menu_1 a {		
+		padding-right: 1rem;
+	}
+
+						/* BANNER */
+	.banner {	
+		width: auto;
+		height: 3.5rem;	
+		margin-right: 2rem;
+		margin-top: 7rem;	
+		flex-shrink: 3;
+	}
+	.banner h1{	
+		font-size: 1.33rem;		
+		padding: 0.75rem  4rem;
+	}
+		
+@media only screen and (max-width: 722px)	 {
+  /*  For Tablet */
+
+	html, body{
+		max-width: 722px;
+	}
+  /* Header*/
+	header{
+		width: 100%;
+		height: 17rem;	
+	}
+	.box {	
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: 100%;
+		height: auto;	
+		padding-top: 0rem;		  
+	}
+	.header .logo h2{
+		display: none;		
+	}
+
+				/* MENU */
+	.menu_1 {
+			display: none;
+	}
+	 .menu_2 {
+	 	display:flex;
+		justify-content:space-between;	
+		align-items: center;
+		 
+	 }
+	.menu_1 a{
+			display: none;
+	}
+	 .menu_2 a {  
+		  width:3rem;	
+			height: 1rem;
+			color: white;  	 
+		  font-style: Helvetica, sans-serif;
+		  font-size: 1rem;
+		  text-decoration: none;   
+	}  
+
+	   	/* BANNER */
+	.banner {
+		display: flex;
+		align-items: flex-start;
+		
+		width: 100%;
+	  height: 3rem;	
+	  margin-top: 9rem;
+	}	
+		
+	.banner h1 {
+		height: 1rem;
+		text-align: center;
+		padding: 1rem 0;
+	}
+
+/*  services */
+.box-box {
+	padding-left:3rem;
+}
+		}
+	
+	
